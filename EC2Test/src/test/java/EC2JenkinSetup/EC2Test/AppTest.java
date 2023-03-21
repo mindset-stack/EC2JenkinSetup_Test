@@ -3,7 +3,12 @@ package EC2JenkinSetup.EC2Test;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 
 /**
  * Unit test for simple App.
@@ -12,9 +17,9 @@ import org.testng.annotations.BeforeTest;
 
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+	
+	
+	
 	@BeforeTest
     public void shouldAnswerWithTrue()
     {
