@@ -1,26 +1,16 @@
-[INFO ] 2023-03-21 16:27:14.873 [main] Log - Please provide browser name
-[INFO ] 2023-03-21 16:28:03.636 [main] Log - chrome browser is selected
-[INFO ] 2023-03-21 17:14:08.497 [main] Log - chrome browser selected
-[INFO ] 2023-03-21 17:14:08.787 [main] Log - Opened firefox browser
-[INFO ] 2023-03-21 17:14:08.813 [main] Log - Window is maximized
-[INFO ] 2023-03-21 17:14:15.526 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
-[INFO ] 2023-03-21 17:15:15.100 [main] Log - chrome browser selected
-[INFO ] 2023-03-21 17:15:15.410 [main] Log - Opened firefox browser
-[INFO ] 2023-03-21 17:15:15.428 [main] Log - Window is maximized
-[INFO ] 2023-03-21 17:15:18.810 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
-[INFO ] 2023-03-21 17:47:41.366 [main] Log - chrome browser selected
-[INFO ] 2023-03-21 17:47:41.650 [main] Log - Opened firefox browser
-[INFO ] 2023-03-21 17:47:41.668 [main] Log - Window is maximized
-[INFO ] 2023-03-21 17:47:47.793 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
-[INFO ] 2023-03-21 17:49:12.219 [main] Log - chrome browser selected
-[INFO ] 2023-03-21 17:49:12.629 [main] Log - Opened firefox browser
-[INFO ] 2023-03-21 17:49:12.665 [main] Log - Window is maximized
-[INFO ] 2023-03-21 17:49:16.097 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
-[INFO ] 2023-03-21 18:00:48.495 [main] Log - chrome browser selected
-[INFO ] 2023-03-21 18:00:49.032 [main] Log - Opened firefox browser
-[INFO ] 2023-03-21 18:00:49.060 [main] Log - Window is maximized
-[INFO ] 2023-03-21 18:00:55.562 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
-[INFO ] 2023-03-21 18:47:22.259 [main] Log - chrome browser selected
-[INFO ] 2023-03-21 18:47:22.733 [main] Log - Opened firefox browser
-[INFO ] 2023-03-21 18:47:22.819 [main] Log - Window is maximized
-[INFO ] 2023-03-21 18:47:27.734 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-23 10:56:19.695 [main] Log - chrome browser selected
+[INFO ] 2023-03-23 10:56:20.165 [main] Log - Opened firefox browser
+[INFO ] 2023-03-23 10:56:20.183 [main] Log - Window is maximized
+[INFO ] 2023-03-23 10:56:28.129 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-23 10:56:28.157 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-03-23 10:56:28.238 [main] Log - Text in the element is [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2023-03-23 10:56:28.510 [main] Log - Cliked on textbox [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //input[@name='username']]
+[INFO ] 2023-03-23 10:56:28.634 [main] Log - Entered text on [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //input[@name='username']] text
+[INFO ] 2023-03-23 10:56:28.660 [main] Log - Text in the element is [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2023-03-23 10:56:28.912 [main] Log - Cliked on textbox [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //input[@name='password']]
+[INFO ] 2023-03-23 10:56:28.977 [main] Log - Entered text on [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //input[@name='password']] text
+[INFO ] 2023-03-23 10:56:29.031 [main] Log - wait for until element [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2023-03-23 10:56:29.334 [main] Log - Clicked on element [[FirefoxDriver: firefox on WINDOWS (6073f048-3193-4f64-a63b-632915ce0146)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2023-03-23 10:56:37.361 [main] Log - LoginPageTest is passed
+[INFO ] 2023-03-23 10:56:37.362 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 597c86c0-3662-4d9c-982f-aa1b020eaa65 []
+[INFO ] 2023-03-23 10:56:39.874 [main] Log - I am on finish method testng

@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 
@@ -12,6 +13,9 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.blazeclan.qa.logging.Log;
 import com.blazeclan.qa.utility.CrossBrowser;
@@ -64,5 +68,36 @@ public class CommonFunctions {
 		driver.get(url);
 		Log.info("Opened URL is  " +url);
 	}
+	
+	public void enterText(WebElement element, String text) {
+
+
+		element.clear();
+		Log.info("Text in the element is " + element  +"is cleared");
+		element.click();
+		Log.info("Cliked on textbox " +element);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		element.sendKeys(text);
+		Log.info("Entered text on " +element +" text");
+
+
+
+
+
+
+
+	}
+
+	public void clickElement(WebElement element) {
+
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.visibilityOf(element));
+		Log.info("wait for until element "+ element.toString() + "is visible");
+		element.click();
+		Log.info("Clicked on element " +element);
+
+	}
+
 
 }

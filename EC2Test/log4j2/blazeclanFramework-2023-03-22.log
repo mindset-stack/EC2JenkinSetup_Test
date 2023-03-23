@@ -1,0 +1,42 @@
+[INFO ] 2023-03-22 09:42:50.039 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 09:42:50.393 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 09:42:50.394 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 09:42:50.405 [main] Log - I am on finish method Test
+[INFO ] 2023-03-22 09:45:43.345 [main] Log - chrome browser selected
+[INFO ] 2023-03-22 09:45:43.828 [main] Log - Opened firefox browser
+[INFO ] 2023-03-22 09:45:43.844 [main] Log - Window is maximized
+[INFO ] 2023-03-22 09:45:52.111 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-22 09:46:40.083 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 09:46:40.373 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 09:46:40.373 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 09:46:40.387 [main] Log - I am on finish method Test
+[INFO ] 2023-03-22 09:49:53.955 [main] Log - chrome browser selected
+[INFO ] 2023-03-22 09:49:54.515 [main] Log - Opened firefox browser
+[INFO ] 2023-03-22 09:49:54.543 [main] Log - Window is maximized
+[INFO ] 2023-03-22 09:49:59.989 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-22 10:12:38.897 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 10:12:39.216 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 10:12:39.216 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 10:12:39.228 [main] Log - I am on finish method Test
+[INFO ] 2023-03-22 10:24:13.713 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 10:24:14.087 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 10:24:14.087 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 10:24:14.099 [main] Log - I am on finish method Test
+[INFO ] 2023-03-22 17:16:09.186 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 17:16:09.524 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 17:16:09.524 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 17:16:09.539 [main] Log - I am on finish method testng
+[INFO ] 2023-03-22 17:18:33.816 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 17:18:34.215 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 17:18:34.216 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 17:18:34.232 [main] Log - I am on finish method testng
+[INFO ] 2023-03-22 17:40:51.267 [main] Log - setUp Test is starting. 
+[ERROR] 2023-03-22 17:40:51.590 [main] Log - setUpTest is failed
+[ERROR] 2023-03-22 17:40:51.591 [main] Log - setUpTest is failed
+[INFO ] 2023-03-22 17:40:51.607 [main] Log - I am on finish method testng
+[INFO ] 2023-03-22 17:44:50.501 [main] Log - I am on finish method testng
+[INFO ] 2023-03-22 17:46:09.907 [main] Log - chrome browser selected
+[INFO ] 2023-03-22 17:46:10.258 [main] Log - Opened firefox browser
+[INFO ] 2023-03-22 17:46:10.276 [main] Log - Window is maximized
+[INFO ] 2023-03-22 17:46:17.568 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-22 17:46:19.426 [main] Log - I am on finish method testng

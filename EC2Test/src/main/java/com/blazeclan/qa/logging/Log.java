@@ -1,14 +1,15 @@
 package com.blazeclan.qa.logging;
 
 import org.apache.logging.log4j.LogManager;
-import org.slf4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import com.aventstack.extentreports.Status;
 import com.blazeclan.qa.reports.ExtentTestManager;
 
 public class Log {
 
-	private static final org.apache.logging.log4j.Logger Log= LogManager.getLogger(Log.class.getName());
+	//private static final org.apache.logging.log4j.Logger Log= LogManager.getLogger(Log.class.getName());
+	private static final Logger Log= LogManager.getLogger(Log.class.getName());
 	public static void info(String message) {
 		
 		Log.info(message);

@@ -1,4 +1,4 @@
-package EC2JenkinSetup.EC2Test;
+package com.blazeclan.qa.test.testng;
 
 import static org.junit.Assert.assertTrue;
 
@@ -20,10 +20,10 @@ public class AppTest
 	
 	
 	
-	@BeforeTest
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-        System.out.println("Hello");
-    }
+//	@BeforeTest
+//    public void shouldAnswerWithTrue()
+//    {
+//        assertTrue( true );
+//        System.out.println("Hello");
+//    }
 }
