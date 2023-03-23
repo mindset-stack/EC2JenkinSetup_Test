@@ -13,18 +13,40 @@ import com.blazeclan.qa.logging.Log;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CrossBrowser extends CommonFunctions {
-	public static WebDriver selectDriver(String browser) {
-		if (browser.equalsIgnoreCase("Chrome")) {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-		} else if (browser.equalsIgnoreCase("Firefox")) {
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-		} else {
+//	public static WebDriver selectDriver(String browser) {
+//		if (browser.equalsIgnoreCase("Chrome")) {
+//			WebDriverManager.chromedriver().setup();
+//			driver = new ChromeDriver();
+//		} else if (browser.equalsIgnoreCase("Firefox")) {
+//			WebDriverManager.firefoxdriver().setup();
+//			driver = new FirefoxDriver();
+//		} else {
+//
+//		}
+//
+//		Log.info("chrome browser selected");
+	public static WebDriver selectDriver( String browser) {
+        switch (browser) {
+            case "chrome": //chrome driver
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--disable-notifications");
+                options.addArguments("--remote-allow-origins=*");
+               // Log.info("chrome browser is selected");
 
-		}
+                driver=(WebDriverManager.chromedriver().capabilities(options).create());
+                Log.info("chrome browser is selected");
+                break;
+            case "firefox"://firefox driver
+                Log.info("firefox browser is selected");
+                driver=(WebDriverManager.firefoxdriver().create());
+                break;
+            case "edge"://edge driver
+                Log.info("edge browser is selected");
+                driver=(WebDriverManager.edgedriver().create());
+                break;
+            default: Log.info("Please provide browser name");
+        }
 
-		Log.info("chrome browser selected");
 
 		DriverManager.setDriver(driver);
 		return DriverManager.getDriver();
