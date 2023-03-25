@@ -37,7 +37,7 @@ public class CrossBrowser extends CommonFunctions {
                 Log.info("chrome browser is selected");
                 break;
             case "firefox"://firefox driver
-                Log.info("firefox browser is selected");
+               // Log.info("firefox browser is selected");
                 driver=(WebDriverManager.firefoxdriver().create());
                 break;
             case "edge"://edge driver
