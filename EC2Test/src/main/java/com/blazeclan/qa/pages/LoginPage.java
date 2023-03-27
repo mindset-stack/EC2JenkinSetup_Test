@@ -7,13 +7,20 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-	@FindBy(xpath="//input[@name='username']")
+//	@FindBy(xpath="//input[@name='username']")
+//	public WebElement loginemail;
+//	@FindBy(xpath="//input[@name='password']")
+//	public WebElement loginpassword;
+//	@FindBy(xpath="//button[normalize-space()='Sign In']")
+//	public WebElement loginBtn;
+	
+	@FindBy(xpath="//input[@id='coordinated_email']")
 	public WebElement loginemail;
-	@FindBy(xpath="//input[@name='password']")
+	@FindBy(xpath="//input[@id='coordinated_password']")
 	public WebElement loginpassword;
-	@FindBy(xpath="//button[normalize-space()='Sign In']")
+	@FindBy(xpath="//button[@type='submit']")
 	public WebElement loginBtn;
-	  
+
 	
 	public LoginPage(WebDriver driver) {
 		

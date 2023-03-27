@@ -31,7 +31,7 @@ public void setUp() {
 	@AfterTest
 	public void logout() {
 		//extent.flush();
-		//driver.quit();
+		driver.quit();
 	
 	}
 }

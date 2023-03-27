@@ -26,12 +26,16 @@ public class LoginTest extends BaseTest {
 	public void LoginPage() throws InterruptedException {
 		
 		loginpage = new LoginPage(driver);
-		enterText(loginpage.loginemail,"jamian.yovany@falltrack.net");
+		//enterText(loginpage.loginemail,"jamian.yovany@falltrack.net");
+		enterText(loginpage.loginemail,"cheyenne.riggs@zooants.com");
+		//enterText(loginpage.loginpassword,"Qwerty@123!");
 		enterText(loginpage.loginpassword,"Qwerty@123!");
 		clickElement(loginpage.loginBtn);
 		Thread.sleep(3000);
 		String currentUrl= driver.getCurrentUrl();
-		String actualUrl= "https://pulse-stage.projectai.com/app/help/how-to-use-pulse";
+		//String actualUrl= "https://pulse-stage.projectai.com/app/help/how-to-use-pulse";
+		String actualUrl= "https://prerelease-user-management-ui.predikt-r.com/login";
+		
 		Assert.assertEquals(actualUrl, currentUrl);
 		Thread.sleep(5000);		
 	}

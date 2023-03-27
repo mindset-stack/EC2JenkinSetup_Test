@@ -100,3 +100,113 @@
 [INFO ] 2023-03-27 14:05:00.470 [main] Log - LoginPageTest is passed
 [INFO ] 2023-03-27 14:05:00.471 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 10d184bc-a5fa-487e-abb8-023d1399a63b []
 [INFO ] 2023-03-27 14:05:00.663 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:38:51.062 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:38:51.511 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:38:53.807 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:38:53.838 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 14:38:53.918 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:38:54.084 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:40:04.423 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:40:04.890 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:40:06.773 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:40:06.810 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 14:40:06.915 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:40:07.137 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:40:35.750 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:40:36.486 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:40:41.543 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:40:41.600 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-03-27 14:40:41.762 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2023-03-27 14:40:41.893 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //input[@name='username']]
+[INFO ] 2023-03-27 14:40:42.235 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //input[@name='username']] text
+[INFO ] 2023-03-27 14:40:42.317 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2023-03-27 14:40:42.398 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //input[@name='password']]
+[INFO ] 2023-03-27 14:40:42.508 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //input[@name='password']] text
+[INFO ] 2023-03-27 14:40:42.607 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2023-03-27 14:40:42.698 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (dd30c6ec3eaffe98961d73be206c2c25)] -> xpath: //button[normalize-space()='Sign In']]
+[ERROR] 2023-03-27 14:40:45.725 [main] Log - LoginPageTest is failed
+[ERROR] 2023-03-27 14:40:45.733 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:40:45.810 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:46:18.517 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:46:19.003 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:46:21.453 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:46:21.490 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 14:46:21.567 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:46:22.232 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:52:15.916 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:52:16.361 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:52:18.263 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:52:18.296 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 14:52:18.370 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:52:19.010 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:52:46.233 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:52:46.613 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:52:49.097 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:52:49.120 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 14:52:49.180 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:52:49.854 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 14:53:28.041 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 14:53:28.421 [main] Log - Window is maximized
+[INFO ] 2023-03-27 14:53:29.891 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 14:53:29.917 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 14:53:29.987 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 14:53:30.671 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 15:01:51.129 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 15:01:51.617 [main] Log - Window is maximized
+[INFO ] 2023-03-27 15:01:53.622 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 15:01:53.658 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 15:01:53.737 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 15:01:54.493 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 16:19:04.950 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 16:19:05.368 [main] Log - Window is maximized
+[INFO ] 2023-03-27 16:19:07.394 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 16:19:07.422 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 16:19:07.485 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 16:19:07.891 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 16:23:12.967 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 16:23:13.321 [main] Log - Window is maximized
+[INFO ] 2023-03-27 16:23:14.866 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 16:23:14.889 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 16:23:14.937 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 16:23:15.359 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 16:26:58.609 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 16:26:58.975 [main] Log - Window is maximized
+[INFO ] 2023-03-27 16:27:00.544 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 16:27:00.577 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 16:27:00.628 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 16:27:01.102 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 16:27:42.454 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 16:27:42.818 [main] Log - Window is maximized
+[INFO ] 2023-03-27 16:27:43.723 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-27 16:27:43.748 [main] Log - LoginPage Test is starting. 
+[ERROR] 2023-03-27 16:27:43.787 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 16:27:44.221 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 16:40:50.075 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 16:40:50.491 [main] Log - Window is maximized
+[INFO ] 2023-03-27 16:40:59.512 [main] Log - Opened URL is  https://prerelease-user-management-ui.predikt-r.com/login
+[INFO ] 2023-03-27 16:40:59.531 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-03-27 16:40:59.620 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //input[@id='coordinated_email']]is cleared
+[INFO ] 2023-03-27 16:40:59.676 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //input[@id='coordinated_email']]
+[INFO ] 2023-03-27 16:40:59.836 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //input[@id='coordinated_email']] text
+[INFO ] 2023-03-27 16:40:59.884 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //input[@id='coordinated_password']]is cleared
+[INFO ] 2023-03-27 16:40:59.940 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //input[@id='coordinated_password']]
+[INFO ] 2023-03-27 16:41:00.008 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //input[@id='coordinated_password']] text
+[INFO ] 2023-03-27 16:41:00.075 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //button[@type='submit']]is visible
+[INFO ] 2023-03-27 16:41:00.140 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (dc99da7f6ce23fb89b4e49600f682ec3)] -> xpath: //button[@type='submit']]
+[ERROR] 2023-03-27 16:41:03.164 [main] Log - LoginPageTest is failed
+[INFO ] 2023-03-27 16:41:04.413 [main] Log - I am on finish method testng
+[INFO ] 2023-03-27 16:41:44.721 [main] Log - Opened chrome browser
+[INFO ] 2023-03-27 16:41:45.070 [main] Log - Window is maximized
+[INFO ] 2023-03-27 16:41:51.089 [main] Log - Opened URL is  https://prerelease-user-management-ui.predikt-r.com/login
+[INFO ] 2023-03-27 16:41:51.120 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-03-27 16:41:51.218 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //input[@id='coordinated_email']]is cleared
+[INFO ] 2023-03-27 16:41:51.282 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //input[@id='coordinated_email']]
+[INFO ] 2023-03-27 16:41:51.411 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //input[@id='coordinated_email']] text
+[INFO ] 2023-03-27 16:41:51.461 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //input[@id='coordinated_password']]is cleared
+[INFO ] 2023-03-27 16:41:51.514 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //input[@id='coordinated_password']]
+[INFO ] 2023-03-27 16:41:51.586 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //input[@id='coordinated_password']] text
+[INFO ] 2023-03-27 16:41:51.641 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //button[@type='submit']]is visible
+[INFO ] 2023-03-27 16:41:51.717 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (d5e46a44101e9f4dcb13614df2bb7b23)] -> xpath: //button[@type='submit']]
+[INFO ] 2023-03-27 16:41:59.757 [main] Log - LoginPageTest is passed
+[INFO ] 2023-03-27 16:41:59.757 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 518cceb6-335d-4515-93d8-0195a345b6ca []
+[INFO ] 2023-03-27 16:42:00.941 [main] Log - I am on finish method testng
