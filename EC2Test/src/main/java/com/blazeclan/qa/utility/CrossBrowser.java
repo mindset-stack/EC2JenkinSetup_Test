@@ -36,7 +36,9 @@ public class CrossBrowser extends CommonFunctions {
                 options.addArguments("--disable-extensions") ;
                 options.addArguments("--disable-gpu") ;
                 options.addArguments("start-maximized"); 
+                options.addArguments("--window-size=1920x1080");
                 options.addArguments("disable-infobars");
+               // options.addArguments("--headless");
                
                 // Log.info("chrome browser is selected");
 
