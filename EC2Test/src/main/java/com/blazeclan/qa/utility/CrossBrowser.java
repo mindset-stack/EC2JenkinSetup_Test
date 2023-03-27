@@ -30,15 +30,16 @@ public class CrossBrowser extends CommonFunctions {
             case "chrome": //chrome driver
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--disable-notifications");
-                options.addArguments("--remote-allow-origins=*");
-                options.addArguments("--remote-debugging-port=9222")  ;
-                options.addArguments("--disable-dev-shm-using") ;
-                options.addArguments("--disable-extensions") ;
-                options.addArguments("--disable-gpu") ;
-                options.addArguments("start-maximized"); 
-                options.addArguments("--window-size=1920x1080");
-                options.addArguments("disable-infobars");
-               // options.addArguments("--headless");
+            //    options.addArguments("--remote-allow-origins=*");
+//                options.addArguments("--remote-debugging-port=9222")  ;
+//                options.addArguments("--disable-dev-shm-using") ;
+//                options.addArguments("--disable-extensions") ;
+//                options.addArguments("--disable-gpu") ;
+//                options.addArguments("start-maximized"); 
+//                options.addArguments("--window-size=1920x1080");
+//                options.addArguments("disable-infobars");
+                options.addArguments("headless");
+               // options.setBinary(null)
                
                 // Log.info("chrome browser is selected");
 

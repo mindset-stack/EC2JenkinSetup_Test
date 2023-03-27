@@ -97,3 +97,6 @@
 [INFO ] 2023-03-27 14:04:52.297 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (2e7d10e016b7f319052e5eb45ab021ed)] -> xpath: //input[@name='password']] text
 [INFO ] 2023-03-27 14:04:52.364 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (2e7d10e016b7f319052e5eb45ab021ed)] -> xpath: //button[normalize-space()='Sign In']]is visible
 [INFO ] 2023-03-27 14:04:52.440 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (2e7d10e016b7f319052e5eb45ab021ed)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2023-03-27 14:05:00.470 [main] Log - LoginPageTest is passed
+[INFO ] 2023-03-27 14:05:00.471 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 10d184bc-a5fa-487e-abb8-023d1399a63b []
+[INFO ] 2023-03-27 14:05:00.663 [main] Log - I am on finish method testng
