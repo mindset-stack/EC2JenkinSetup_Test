@@ -31,10 +31,17 @@ public class CrossBrowser extends CommonFunctions {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--disable-notifications");
                 options.addArguments("--remote-allow-origins=*");
-               // Log.info("chrome browser is selected");
+                options.addArguments("--remote-debugging-port=9222")  ;
+                options.addArguments("--disable-dev-shm-using") ;
+                options.addArguments("--disable-extensions") ;
+                options.addArguments("--disable-gpu") ;
+                options.addArguments("start-maximized"); 
+                options.addArguments("disable-infobars");
+               
+                // Log.info("chrome browser is selected");
 
                 driver=(WebDriverManager.chromedriver().capabilities(options).create());
-                Log.info("chrome browser is selected");
+              //  Log.info("chrome browser is selected");
                 break;
             case "firefox"://firefox driver
                // Log.info("firefox browser is selected");
